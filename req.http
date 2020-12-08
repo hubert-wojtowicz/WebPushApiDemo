@@ -1,0 +1,25 @@
+
+###
+# @name sub
+POST http://localhost:5000/subscribe HTTP/1.1
+Content-Type: application/json
+Accept-Language: pl
+
+{
+    "client": "Hubert",
+    "endpoint": "test",
+    "p256dh": "p256dhtest",
+    "auth": "auth"
+}
+
+
+###
+# @name notif
+POST http://localhost:5000/notify HTTP/1.1
+Content-Type: application/json
+Accept-Language: pl
+
+{
+    "client": "Hubert",
+    "message": "test testowi nie równy!"
+}
