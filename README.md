@@ -1,6 +1,6 @@
 # WebPushApiDemo
 
-This demo is walkthrough of [article](https://blog.elmah.io/how-to-send-push-notifications-to-a-browser-in-asp-net-core/) and reimplementign to WebApi situation.
+This demo is walkthrough of [article](https://blog.elmah.io/how-to-send-push-notifications-to-a-browser-in-asp-net-core/) and reimplementing to .NET Core WebApi situation.
 
 Frontend allow:
 - register subscribtion in mongo db through api
